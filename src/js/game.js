@@ -51,13 +51,11 @@ function coloringMark(flag) {
 function evaluatingGame(numberLeft, numberRight) {
     if (
         (numberLeft == 0 && numberRight == 1) || (numberLeft == 2 && numberRight == 0) || (numberLeft == 1 && numberRight == 2)) {
-            console.log(numberLeft+" -- "+numberRight);
         coloringMark(1);
     }
 
     if (
         (numberLeft == 0 && numberRight == 2) || (numberLeft == 1 && numberRight == 0) || (numberLeft == 2 && numberRight == 1)) {
-            console.log(numberLeft+" -- "+numberRight);
         coloringMark(0);
     }
 }
